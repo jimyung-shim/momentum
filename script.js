@@ -16,7 +16,7 @@ app.get('/cat',(req,res)=>{
 });
 
 app.get('/pig',(req,res)=>{
-    res.send('꿀꿀꿀꿀');
+    res.send('꿀꿀꿀꾸이이이익꿀');
 });
 
 app.listen(port, ()=>{
