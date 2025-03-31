@@ -7,8 +7,12 @@ app.get('/',(req,res)=>{
     res.send('Welcome to animal sound api!');
 });
 
-app.get('dog',(req,res)=>{
+app.get('/dog',(req,res)=>{
     res.send('왈왈왈왈');
+});
+
+app.get('/cat',(req,res)=>{
+    res.send('냥냥냥냥냥');
 });
 
 app.listen(port, ()=>{
