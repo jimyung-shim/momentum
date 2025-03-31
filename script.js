@@ -12,7 +12,7 @@ app.get('/dog',(req,res)=>{
 });
 
 app.get('/cat',(req,res)=>{
-    res.send('냥냥냥냥냥');
+    res.send('냥냥냥캬아아아악냥냥');
 });
 
 app.get('/pig',(req,res)=>{
