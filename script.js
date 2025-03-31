@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/dog',(req,res)=>{
-    res.send('왈왈왈왈');
+    res.send('왈왈왈멍');
 });
 
 app.get('/cat',(req,res)=>{
