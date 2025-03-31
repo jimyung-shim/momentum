@@ -15,6 +15,10 @@ app.get('/cat',(req,res)=>{
     res.send('냥냥냥냥냥');
 });
 
+app.get('/pig',(req,res)=>{
+    res.send('꿀꿀꿀꿀');
+});
+
 app.listen(port, ()=>{
     console.log('Local hosting at '+port);
 });
