@@ -7,6 +7,10 @@ app.get('/',(req,res)=>{
     res.send('Welcome to animal sound api!');
 });
 
+app.get('dog',(req,res)=>{
+    res.send('왈왈왈왈');
+});
+
 app.listen(port, ()=>{
     console.log('Local hosting at '+port);
 });
